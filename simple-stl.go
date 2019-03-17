@@ -6,7 +6,7 @@ import (
 )
 
 type Reader interface {
-	Read () interface{}
+	Read () Reader
 }
 type Writer interface {
 	Write (Writer)
